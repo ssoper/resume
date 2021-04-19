@@ -1,0 +1,60 @@
+/*
+  Primary: #2ccfd3
+  Secondary: #d3302c
+*/
+
+@font-face {
+    font-family: 'JetBrainsRegular';
+    src: url('fonts/JetBrainsMono-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.row-bordered {
+  position: relative;
+}
+
+.row-bordered:after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #ccc;
+  position: absolute;
+  bottom: 0;
+  left: 13px;
+  right: 13px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 24pt;
+  margin-top: 25px;
+  color: #555;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+#header {
+  font-family: JetBrainsRegular;
+  font-size: 12pt;
+  background-color: #2ccfd3;
+  color: #fff;
+  padding: 12pt;
+}
+
+#header .title {
+  font-size: 36pt;  
+}
+
+#header a {
+  color: #fff;
+}
+
+#about {
+  padding-top: 8pt;
+}
