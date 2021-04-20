@@ -51,6 +51,10 @@ p.date {
   font-weight: bold;
 }
 
+p.fw-bold {
+  line-height: 15pt;
+}
+
 #header {
   font-family: JetBrainsRegular;
   font-size: 12pt;
@@ -75,6 +79,10 @@ p.date {
 
 #about {
   padding-top: 8px;
+}
+
+#core {
+  padding-bottom: 155px;
 }
 
 #sidebar {
@@ -119,6 +127,11 @@ p.date {
   font-size: 10pt;
 }
 
-#addendum p {
-  font-size: 10pt;
+#addl-experience {
+  padding-top: 30px;
+}
+
+#browsermedia {
+  margin-top: 125px;
+  padding-top: 20px;
 }
