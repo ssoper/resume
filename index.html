@@ -6,83 +6,342 @@
     <link rel='stylesheet' href='main.css'>
   </head>
   <body>
-    <div class='container-fluid' id='header'>
-      <div class='row'>
-        <div class='col title'>
-          Sean Soper
-        </div>
-        <div class='col'>
-          <p class='text-end'><i class='bi-telephone'></i> 301.458.0732</p>
-          <p class='text-end'><i class='bi-envelope'></i> <a href='mailto:sean.soper@gmail.com'>sean.soper@gmail.com</a></p>
-          <p class='text-end'><i class='bi-globe'></i> Rockville, MD</p>
-        </div>
-      </div>
-    </div>
-    <div class='container-fluid' id='about'>
-      <div class='row'>
-        <div class='col-9'>
-      Developer with 20 years of experience architecting systems, crafting code and building production-ready applications. People leader with 10 years of experience managing teams and delivering well-tested, high-quality features. With an <strong>MBA</strong> in hand, I am equipped to understand the business needs of an organization and the dynamics of their industry.
-        </div>
-        <div class='col-3'>
-          asdfas dfasdf asdfasdfa sdfasdfas dfasdfasdfasd fasdfsadf
-        </div>
-      </div>
-    </div>
     <div class='container-fluid'>
-      <div class='row row-bordered'>
+      <div class='row' id='header'>
         <div class='col'>
-          <h1>Experience</h1>
+          <p class='title'>Sean Soper</p>
+          <p class='degree'>MBA</p>
         </div>
       </div>
-      <!-- Capital One -->
+
+      <!-- Main Content -->
       <div class='row'>
-        <div class='col-2'>
-          April 2019 – Present
+        <div class='col-9' id='core'>
+          <p id='about'>Developer with 20 years of experience architecting systems, crafting code and building production-ready applications. People leader with 10 years of experience managing teams and delivering well-tested, high-quality features.</p>
+
+          <!-- Begin Experience -->
+          <div class='row row-bordered' id='experience'>
+            <div class='col'>
+              <h1>Experience</h1>
+            </div>
+          </div>
+
+          <!-- Capital One -->
+          <div class='row'>
+            <div class='col-2'>
+              <p class='date'>2019/04 –</p><p class='date'>Present</p>
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Senior Engineering Manager</p>
+              <p class='fst-italic'>Capital One</p>
+              <p class='fst-italic'>McLean, VA</p>
+              <ul>
+                <li>Spearheaded development of Robot Unit Testing pattern for Card Tech Mobile.</li>
+                <li>Leading teams focused on retainment of Mainstreet customers within the Capital One app.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Upside -->
+          <div class='row'>
+            <div class='col-2'>
+              <p class='date'>2017/10 –</p><p class='date'>2019/04</p>
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Senior Lead Travel</p>
+              <p class='fst-italic'>Upside Travel</p>
+              <p class='fst-italic'>Washington, D.C.</p>
+              <ul>
+                <li>Led multiple teams of full-stack developers to support our customers’ on-trip experience.</li>
+                <li>Integrated with vendors to promote travel-focused services in-app.</li>
+                <li>Worked directly with executive team to craft unified strategy and drive downloads.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Begin Education -->
+          <div class='row row-bordered'>
+            <div class='col'>
+              <h1>Education</h1>
+            </div>
+          </div>
+
+          <!-- WGU -->
+          <div class='row'>
+            <div class='col-2'>
+              <p class='date'>2020 –</p><p class='date'>2021</p>
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Western Governors University</p>
+              <p class='fst-italic'>Salt Lake City, UT</p>
+              <ul>
+                <li>Master of Business Administration</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Purdue -->
+          <div class='row'>
+            <div class='col-2'>
+              <p class='date'>1997 –</p><p class='date'>2002</p>
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Purdue University</p>
+              <p class='fst-italic'>West Lafeyette, IN</p>
+              <ul>
+                <li>Bachelor of Science in Computer Science</li>
+                <li>Minors in History and Anthropology</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- End Education -->
         </div>
-        <div class='col-10'>
-          <p class='fw-bold'>Senior Engineering Manager</p>
-          <p class='fst-italic'>Capital One</p>
-          <p class='fst-italic'>McLean, VA</p>
-          <ul>
-            <li>Spearheaded development of Robot Unit Testing pattern for Card Tech Mobile.</li>
-            <li>Leading teams focused on retainment of Mainstreet customers within the Capital One app.</li>
-          </ul>
+        <!-- Begin Sidebar -->
+        <div class='col-3' id='sidebar'>
+          
+          <!-- Contact -->
+          <div id='contact'>
+            <div class='row row-bordered'>
+              <div class='col'>
+                <h5>Contact</h5>
+              </div>
+            </div>
+
+            <p><i class='bi-telephone'></i> Phone</p>
+            <p>301.458.0732</p>
+          
+            <p><i class='bi-envelope'></i> Email</p>  
+            <p id='email'><a href='mailto:sean.soper@gmail.com'>sean.soper@gmail.com</a></p>
+          
+            <p><i class='bi-globe'></i> Location</p>
+            <p>Rockville, MD</p>
+
+            <p><i class='bi-laptop'></i> Website</p>
+            <p><a href='https://seansoper.com'>seansoper.com</a></p>
+
+            <p><i class='bi-github'></i> GitHub</p>
+            <p><a href='https://github.com/ssoper'>github.com/ssoper</a></p>
+
+            <p><i class='bi-linkedin'></i> LinkedIn</p>
+            <p id='linkedin'><a href='https://www.linkedin.com/in/seansoper/'>linkedin.com/in/seansoper</a></p>
+          </div>
+
+          <!-- Skills -->
+          <div id='skills'>
+            <div class='row row-bordered'>
+              <div class='col'>
+                <h5>Skills</h5>
+              </div>
+            </div>
+
+            <p><i class='bi-phone'></i> Mobile</p>
+            <p>Swift, Kotlin, iOS, Android, Objective-C, Java</p>
+
+            <p><i class='bi-hdd'></i> Systems</p>
+            <p>Java, C, JavaScript, node.js, express, Ruby, Rails, nginx</p>
+
+            <p><i class='bi-server'></i> Datastore</p>
+            <p>SQL, SQLite, PostgreSQL, DynamoDB, Snowflake, MS-SQL, mongoDB, redis</p>
+
+            <p><i class='bi-cloud'></i> Cloud</p>
+            <p>AWS, Docker, Kubernetes, Firebase</p>
+
+            <p><i class='bi-box-seam'></i> Miscellaneous</p>
+            <p>Git, ETL, Matillion, CI, Jenkins, Bash, Linux, OSX, Agile, JIRA</p>
+
+          </div>
         </div>
+        <!-- End Sidebar -->
       </div>
+
+      <div class='row'>
+        <div class='col-12'>
       
-      <!-- Upside -->
-      <div class='row'>
-        <div class='col-2'>
-          October 2017 – April 2019
-        </div>
-        <div class='col-10'>
-          <p class='fw-bold'>Senior Lead Travel</p>
-          <p class='fst-italic'>Upside Travel</p>
-          <p class='fst-italic'>Washington, D.C.</p>
-          <ul>
-            <li>Led multiple teams of full-stack developers to support our customers’ on-trip experience.</li>
-            <li>Integrated with vendors to promote travel-focused services in-app.</li>
-            <li>Worked directly with executive team to craft unified strategy and drive downloads.</li>
-          </ul>
-        </div>
-      </div>
-      
-      <!-- Upside -->
-      <div class='row'>
-        <div class='col-2'>
-          July 2016 – October 2017
-        </div>
-        <div class='col-10'>
-          <p class='fw-bold'>Mobile Lead</p>
-          <p class='fst-italic'>Upside Travel</p>
-          <p class='fst-italic'>Washington, D.C.</p>
-          <ul>
-            <li>Built a mobile team from the ground app.</li>
-            <li>Released the first version of the iOS app in just eight months with Android following just four months later.</li>
-            <li>Developed processes to support a stable deployment pipeline.</li>
-          </ul>
+          <!-- Begin Add’l Experience -->
+          <div class='row row-bordered' id='addl-experience'>
+            <div class='col'>
+              <h1>Additional Experience</h1>
+            </div>
+          </div>
+
+          <!-- Upside -->
+          <div class='row'>
+            <div class='col-2'>
+              <p class='date'>2016/07 –</p><p class='date'>2017/10</p>
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Mobile Lead</p>
+              <p class='fst-italic'>Upside Travel</p>
+              <p class='fst-italic'>Washington, D.C.</p>
+              <ul>
+                <li>Built a mobile team from the ground app.</li>
+                <li>Released the first version of the iOS app in just eight months with Android following just four months later.</li>
+                <li>Developed processes to support a stable deployment pipeline.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Wapo -->
+          <div class='row'>
+            <div class='col-2'>
+              <p class='date'>2014/05 –</p><p class='date'>2016/07</p>
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Technical Architect</p>
+              <p class='fst-italic'>Washington Post</p>
+              <p class='fst-italic'>Washington, D.C.</p>
+              <ul>
+                <li>Led development of national news product which launched in June 2015 as App Store featured app and won Digiday App of the Year</li>
+                <li>Led creation of PostKit, an iOS SDK to ingest and render Washington Post-created content natively.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Wapo -->
+          <div class='row'>
+            <div class='col-2'>
+              <p class='date'>2012/03 –</p><p class='date'>2014/05</p>
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Lead Developer</p>
+              <p class='fst-italic'>Washington Post</p>
+              <p class='fst-italic'>Washington, D.C.</p>
+              <ul>
+                <li>Led integration of pre-release Google Chromecast with our Post TV platform on iOS.</li>
+                <li>Built scalable backend services in Node to support iOS clients.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Vox -->
+          <div class='row'>
+            <div class='col-2'>
+              <p class='date'>2011/02 –</p><p class='date'>2012/03</p>
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Lead Mobile Developer</p>
+              <p class='fst-italic'>Vox Media</p>
+              <p class='fst-italic'>Washington, D.C.</p>
+              <ul>
+                <li>Led team creating SB Nation iPhone app which launched to No. 2 in ‘Free Sports Apps’ category.</li>
+                <li>Developed the Vox Mobile Platform, a system for quickly creating native iOS apps using templatized UI patterns and a common data source.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Intridea -->
+          <div class='row'>
+            <div class='col-2'>
+              <p class='date'>2010/01 –</p><p class='date'>2011/02</p>
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Software Architect</p>
+              <p class='fst-italic'>Intridea</p>
+              <p class='fst-italic'>Washington, D.C.</p>
+              <ul>
+                <li>Developer for combo web/mobile OilReporter app which allowed anybody to report and view oil sightings from the Deep Horizon oil spill. Spoke at TEDxOilSpill about our efforts.</li>
+                <li>Helped develop Mashable! iPad app which launched and remained in top 20 App Store downloads throughout the summer of 2010.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Browser Media -->
+          <div class='row' id='browsermedia'>
+            <div class='col-2'>
+              <p class='date'>2008/10 –</p><p class='date'>2009/12</p>
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Software Developer</p>
+              <p class='fst-italic'>Browser Media</p>
+              <p class='fst-italic'>Bethesda, MD</p>
+              <ul>
+                <li>Developed the myRadiology iPhone app to track users’ exposure to radiation. Features extensive user interaction and animation plus a custom implementation of iTunes' CoverFlow.</li>
+                <li>Simplified deployment and management of applications using centralized Capistrano settings.</li>
+                <li>Created cross-browser compatible jQuery plugins to replace Flash content.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Revolution Health -->
+          <div class='row'>
+            <div class='col-2'>
+              <p class='date'>2006/06 –</p><p class='date'>2008/09</p>
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Software Engineer</p>
+              <p class='fst-italic'>Revolution Health</p>
+              <p class='fst-italic'>Washington, D.C.</p>
+              <ul>
+                <li>Worked with a team of 20+ developers to build the revolutionhealth.com site.</li>
+                <li>Streamlined the membership purchasing process and created an API based on the ActiveRecord pattern to interface with existing Java services.</li>
+                <li>Developed an in-house rich text editor working on both the front-end implementation using JavaScript and back-end sanitization using Ruby.</li>
+                <li>Created a Ruby gem to generate metric reports for Rails applications and bolted onto our CI process thus giving developers immediate feedback on code complexity and CPU cost. Changes rolled back into metric_fu gem.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- HFHP -->
+          <div class='row'>
+            <div class='col-2'>
+              <p class='date'>2005/08 –</p><p class='date'>2006/06</p>
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Senior Web Developer</p>
+              <p class='fst-italic'>Health First Health Plans</p>
+              <p class='fst-italic'>Rockledge, FL</p>
+              <ul>
+                <li>Inherited broken J2EE portal and had fixed the issues within six months, added error checking, implemented a versioning system and released it to our members for general use.</li>
+                <li>Rewrote the member portal in less than a month using Ruby on Rails while making it Section 508 compliant. Cost savings was approximately $240,000 vs. vendor product.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Harris -->
+          <div class='row'>
+            <div class='col-2'>
+              <p class='date'>2002/05 –</p><p class='date'>2005/07</p>
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Software Engineer</p>
+              <p class='fst-italic'>Harris Corporation</p>
+              <p class='fst-italic'>Melbourne, FL</p>
+              <ul>
+                <li>Managed the configuration and deployment of Google Search to company intranet saving the company $85,000 vs. existing vendor product.</li>
+                <li>Ongoing development, implementation and maintenance of internal web applications using ColdFusion and Oracle 9i.</li>
+              </ul>
+            </div>
+          </div>
+          <!-- End Experience -->
+
+          <div class='row row-bordered'>
+            <div class='col'>
+              <h1>Addendum</h1>
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='col-2'>
+              <p class='date'>2012</p>
+            </div>
+            <div class='col-10'>
+              Co-founder CocoaHeadsDC
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='col-2'>
+              <p class='date'>1995</p>
+            </div>
+            <div class='col-10'>
+              Eagle Scout
+            </div>
+          </div>
+
+
         </div>
       </div>
     </div>
+
   </body>
 </html>
