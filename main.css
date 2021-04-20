@@ -43,6 +43,11 @@ ul {
   padding-left: 1rem;
 }
 
+p.date {
+  font-size: 10pt;
+  font-weight: bold;
+}
+
 #header {
   font-family: JetBrainsRegular;
   font-size: 12pt;
