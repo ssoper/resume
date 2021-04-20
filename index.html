@@ -6,83 +6,135 @@
     <link rel='stylesheet' href='main.css'>
   </head>
   <body>
-    <div class='container-fluid' id='header'>
-      <div class='row'>
-        <div class='col title'>
-          Sean Soper
-        </div>
+    <div class='container-fluid'>
+      <div class='row' id='header'>
         <div class='col'>
-          <p class='text-end'><i class='bi-telephone'></i> 301.458.0732</p>
-          <p class='text-end'><i class='bi-envelope'></i> <a href='mailto:sean.soper@gmail.com'>sean.soper@gmail.com</a></p>
-          <p class='text-end'><i class='bi-globe'></i> Rockville, MD</p>
+          <p class='title'>Sean Soper</p>
+          <p class='degree'>MBA</p>
         </div>
       </div>
-    </div>
-    <div class='container-fluid' id='about'>
+
+      <!-- Main Content -->
       <div class='row'>
         <div class='col-9'>
-      Developer with 20 years of experience architecting systems, crafting code and building production-ready applications. People leader with 10 years of experience managing teams and delivering well-tested, high-quality features. With an <strong>MBA</strong> in hand, I am equipped to understand the business needs of an organization and the dynamics of their industry.
+          <p id='about'>Developer with 20 years of experience architecting systems, crafting code and building production-ready applications. People leader with 10 years of experience managing teams and delivering well-tested, high-quality features.</p>
+
+          <!-- Begin Experience -->
+          <div class='row row-bordered'>
+            <div class='col'>
+              <h1>Experience</h1>
+            </div>
+          </div>
+
+          <!-- Capital One -->
+          <div class='row'>
+            <div class='col-2'>
+              April 2019 – Present
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Senior Engineering Manager</p>
+              <p class='fst-italic'>Capital One</p>
+              <p class='fst-italic'>McLean, VA</p>
+              <ul>
+                <li>Spearheaded development of Robot Unit Testing pattern for Card Tech Mobile.</li>
+                <li>Leading teams focused on retainment of Mainstreet customers within the Capital One app.</li>
+              </ul>
+            </div>
+          </div>
+      
+          <!-- Upside -->
+          <div class='row'>
+            <div class='col-2'>
+              October 2017 – April 2019
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Senior Lead Travel</p>
+              <p class='fst-italic'>Upside Travel</p>
+              <p class='fst-italic'>Washington, D.C.</p>
+              <ul>
+                <li>Led multiple teams of full-stack developers to support our customers’ on-trip experience.</li>
+                <li>Integrated with vendors to promote travel-focused services in-app.</li>
+                <li>Worked directly with executive team to craft unified strategy and drive downloads.</li>
+              </ul>
+            </div>
+          </div>
+      
+          <!-- Upside -->
+          <div class='row'>
+            <div class='col-2'>
+              July 2016 – October 2017
+            </div>
+            <div class='col-10'>
+              <p class='fw-bold'>Mobile Lead</p>
+              <p class='fst-italic'>Upside Travel</p>
+              <p class='fst-italic'>Washington, D.C.</p>
+              <ul>
+                <li>Built a mobile team from the ground app.</li>
+                <li>Released the first version of the iOS app in just eight months with Android following just four months later.</li>
+                <li>Developed processes to support a stable deployment pipeline.</li>
+              </ul>
+            </div>
+          </div>
+          <!-- End Experience -->
+
         </div>
-        <div class='col-3'>
-          asdfas dfasdf asdfasdfa sdfasdfas dfasdfasdfasd fasdfsadf
+
+        <!-- Begin Sidebar -->
+        <div class='col-3' id='sidebar'>
+          
+          <!-- Contact -->
+          <div id='contact'>
+            <div class='row row-bordered'>
+              <div class='col'>
+                <h5>Contact</h5>
+              </div>
+            </div>
+
+            <p><i class='bi-telephone'></i> Phone</p>
+            <p>301.458.0732</p>
+          
+            <p><i class='bi-envelope'></i> Email</p>  
+            <p id='email'><a href='mailto:sean.soper@gmail.com'>sean.soper@gmail.com</a></p>
+          
+            <p><i class='bi-globe'></i> Location</p>
+            <p>Rockville, MD</p>
+
+            <p><i class='bi-laptop'></i> Website</p>
+            <p><a href='https://seansoper.com'>seansoper.com</a></p>
+
+            <p><i class='bi-github'></i> GitHub</p>
+            <p><a href='https://github.com/ssoper'>github.com/ssoper</a></p>
+
+            <p><i class='bi-linkedin'></i> LinkedIn</p>
+            <p id='linkedin'><a href='https://www.linkedin.com/in/seansoper/'>linkedin.com/in/seansoper</a></p>
+          </div>
+
+          <!-- Skills -->
+          <div id='skills'>
+            <div class='row row-bordered'>
+              <div class='col'>
+                <h5>Skills</h5>
+              </div>
+            </div>
+
+            <p><i class='bi-phone'></i> Mobile</p>
+            <p>Swift, Kotlin, iOS, Android, Objective-C, Java</p>
+
+            <p><i class='bi-hdd'></i> Systems</p>
+            <p>Java, C, JavaScript, node.js, express, Ruby, Rails, nginx</p>
+
+            <p><i class='bi-server'></i> Datastore</p>
+            <p>SQL, SQLite, PostgreSQL, DynamoDB, MS-SQL, mongoDB</p>
+
+            <p><i class='bi-cloud'></i> Cloud</p>
+            <p>AWS, Docker, Kubernetes</p>
+
+          </div>
+
         </div>
+        <!-- End Sidebar -->
       </div>
     </div>
-    <div class='container-fluid'>
-      <div class='row row-bordered'>
-        <div class='col'>
-          <h1>Experience</h1>
-        </div>
-      </div>
-      <!-- Capital One -->
-      <div class='row'>
-        <div class='col-2'>
-          April 2019 – Present
-        </div>
-        <div class='col-10'>
-          <p class='fw-bold'>Senior Engineering Manager</p>
-          <p class='fst-italic'>Capital One</p>
-          <p class='fst-italic'>McLean, VA</p>
-          <ul>
-            <li>Spearheaded development of Robot Unit Testing pattern for Card Tech Mobile.</li>
-            <li>Leading teams focused on retainment of Mainstreet customers within the Capital One app.</li>
-          </ul>
-        </div>
-      </div>
-      
-      <!-- Upside -->
-      <div class='row'>
-        <div class='col-2'>
-          October 2017 – April 2019
-        </div>
-        <div class='col-10'>
-          <p class='fw-bold'>Senior Lead Travel</p>
-          <p class='fst-italic'>Upside Travel</p>
-          <p class='fst-italic'>Washington, D.C.</p>
-          <ul>
-            <li>Led multiple teams of full-stack developers to support our customers’ on-trip experience.</li>
-            <li>Integrated with vendors to promote travel-focused services in-app.</li>
-            <li>Worked directly with executive team to craft unified strategy and drive downloads.</li>
-          </ul>
-        </div>
-      </div>
-      
-      <!-- Upside -->
-      <div class='row'>
-        <div class='col-2'>
-          July 2016 – October 2017
-        </div>
-        <div class='col-10'>
-          <p class='fw-bold'>Mobile Lead</p>
-          <p class='fst-italic'>Upside Travel</p>
-          <p class='fst-italic'>Washington, D.C.</p>
-          <ul>
-            <li>Built a mobile team from the ground app.</li>
-            <li>Released the first version of the iOS app in just eight months with Android following just four months later.</li>
-            <li>Developed processes to support a stable deployment pipeline.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+
   </body>
 </html>
