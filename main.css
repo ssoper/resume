@@ -128,8 +128,12 @@ p.fw-bold {
   font-size: 10pt;
 }
 
-#addl-experience, #experience-pg2 {
+#experience-pg2 {
   padding-top: 30px;
+}
+
+#addl-experience {
+  padding-top: 50px;
 }
 
 #addl-experience .row:nth-child(n+3) {
