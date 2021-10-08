@@ -81,8 +81,13 @@ p.fw-bold {
   padding-top: 8px;
 }
 
+#purdue {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 #core {
-  padding-bottom: 36px;
+  padding-bottom: 24px;
 }
 
 #sidebar {
@@ -111,10 +116,6 @@ p.fw-bold {
   font-size: 10pt;
 }
 
-#linkedin {
-  font-size: 9pt;
-}
-
 #skills, #addendum {
   margin-top: 15px;
 }
@@ -127,11 +128,14 @@ p.fw-bold {
   font-size: 10pt;
 }
 
-#addl-experience {
+#experience-pg2 {
   padding-top: 30px;
 }
 
-#browsermedia {
-  margin-top: 125px;
-  padding-top: 20px;
+#addl-experience {
+  padding-top: 50px;
+}
+
+#addl-experience .row:nth-child(n+3) {
+  margin-top: 16px;
 }
